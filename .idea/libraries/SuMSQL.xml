@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="SuMSQL">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../.libraries/Java/SuMMac/SuMMac 7.3.1/Bibs/in userlib/SuMSQL.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/mysql-connector-java-5.1.15-bin.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

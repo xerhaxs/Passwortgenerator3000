@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="SuMGenerator">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../.libraries/Java/SuMMac/SuMMac 7.3.1/Bibs/in extensions/SuMGenerator.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in extensions/SuMGenerator.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
