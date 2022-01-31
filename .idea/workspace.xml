@@ -2,154 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2668f67a-7bd2-4a8a-9d68-5515734e1bc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in extensions/SuMAkzeptor.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in extensions/SuMGenerator.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in extensions/SuMTransduktor.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/QTJava.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMEreignis.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMKern.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMKomponenten.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMMultimedia.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMNetz.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMSQL.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMStrukturen.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMWerkzeuge.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/libQTJNative.jnilib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/mysql-connector-java-5.1.15-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/xpp3_min-1.1.3.4.I.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/xstream-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/bluej.defs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/allclasses-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/allclasses-noframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/index-all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/logfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/overview-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/overview-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/package-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/resources/inherit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/serialized-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Bildschirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Buntstift.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/EBAnwendung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Ereignisanwendung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Ereignisbearbeiter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Farbe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Fenster.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Muster.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Schrift.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Stift.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Zeichen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Bildschirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Buntstift.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Eingabe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Farbe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Fenster.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Maus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Muster.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Schrift.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Stift.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Tastatur.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Warnung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Zeichen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Ausrichtung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Auswahl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Etikett.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Fortschrittsbalken.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Kennwortfeld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Knopf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Komponente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Markierungskomponente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Menue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Radiogruppe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Radioknopf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Regler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Schalter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Tabelle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Textbereich.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Textfeld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Textkomponente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Zeichenbereich.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Zeilenbereich.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/multimedia/Bild.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/multimedia/Film.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/multimedia/Ton.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/multimedia/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/multimedia/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/multimedia/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/Clientempfaenger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/Clientverbindung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/Server.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/Serververbindung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/Verbindung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/sql/Datenbank.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/sql/SQLErgebnisliste.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/sql/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/sql/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/sql/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Baum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Binaerbaum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Feld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Hashtabelle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Liste.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Ordnungsklasse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Ordnungsobjekt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Schlange.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Schluesselobjekt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Stapel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Suchbaum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/SuchbaumInhalt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Suchbinaerbaum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Tabelle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/Animation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/Rechner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/Textwerkzeug.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/Uhr.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/dialogues" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/exception.help" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/javac.help" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/labels" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/moe.help" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/html.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/method.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/SuMAnwendung.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/SuMKern.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/SuMProgramm.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/abstract.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/appletj.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/appletsum.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/enum.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/interface.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/midlet.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/stdclass.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/unittest.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/readme.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/passwortmain.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,9 +38,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/xstream-1.1.2.jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="passwortmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
