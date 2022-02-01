@@ -11,6 +11,7 @@ public class passwortmain {
         stift1schreiben = new Stift();
         generator1generieren = new Generator1alle();
 
+        generator1generieren.Passwortlänge(10);
         generator1generieren.GeneriereAlle();
         stift1schreiben.bewegeBis(500, 500);
         stift1schreiben.schreibeText("Hallo Welt");
