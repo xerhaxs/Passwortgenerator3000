@@ -1,17 +1,36 @@
 package classes;
+
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-class gui{
-    public static void main(String args[]){
-        JFrame frame = new JFrame("Passwortgenerator3000");
+public class gui {
+    private JPanel panelMain;
+    private JCheckBox grossbuchstabenCheckBox;
+    private JCheckBox sonderzeichenCheckBox;
+    private JCheckBox ziffernCheckBox;
+    private JCheckBox kleinbuchstabenCheckBox;
+    private JButton passwortKopierenButton;
+    private JProgressBar progressBar1;
+    private JTextField textField1;
+    private JButton passwortGenerierenButton;
+
+
+    public gui() {
+        passwortGenerierenButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(passwortGenerierenButton, "Hello World");
+            }
+        });
+    }
+
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("gui");
+        frame.setContentPane(new gui().panelMain);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(300,300);
-        JCheckBox checkbox1 = new JCheckBox("Buchstaben");
-        JButton buttongen1 = new JButton("Passwort generieren");
-        frame.getContentPane().add(checkbox1);
-        checkbox1.
-        frame.getContentPane().add(buttongen1);
+        frame.pack();
         frame.setVisible(true);
     }
 }

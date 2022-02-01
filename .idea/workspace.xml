@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2668f67a-7bd2-4a8a-9d68-5515734e1bc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/classes/copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/gui.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/gui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/passwortmain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/passwortmain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="227" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/xstream-1.1.2.jar" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -67,9 +70,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.test" />
+      <module name="Passwortgenerator3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.gui" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.passwortmain" />
       </list>
     </recent_temporary>
