@@ -8,7 +8,7 @@ public class Generator1alle {
         Stift1schreiben = new Stift();
     }
 
-    public void Generiere () {
+    public void GeneriereAlle () {
         int upperbound = 94;
         int int_random = Generator1zahlen.nextInt(upperbound)+32;
         Stift1schreiben.bewegeBis(500,600);
