@@ -7,7 +7,6 @@ import java.awt.event.*;
 
 public class gui {
     public JPanel panelMain;
-
     private JSlider passwortJSlider;
     private JTextField passwortJTextField;
     private JButton passwortKopierenButton;
@@ -27,10 +26,10 @@ public class gui {
             public void itemStateChanged(ItemEvent e) {
                 if (e.getStateChange() == ItemEvent.SELECTED) {
                     System.out.println("Grossbuchstaben aktiviert");
-
+                    generator.setGrossbuchstaben(true);
                 } else {
                     System.out.println("Grossbuchstaben deaktiviert");
-
+                    generator.setGrossbuchstaben(false);
                 }
             }
         });
@@ -40,10 +39,10 @@ public class gui {
             public void itemStateChanged(ItemEvent e) {
                 if (e.getStateChange() == ItemEvent.SELECTED) {
                     System.out.println("Kleinbuchstaben aktiviert");
-
+                    generator.setKleinbuchstaben(true);
                 } else {
                     System.out.println("Kleinbuchstaben deaktiviert");
-
+                    generator.setKleinbuchstaben(false);
                 }
             }
         });
@@ -53,10 +52,10 @@ public class gui {
             public void itemStateChanged(ItemEvent e) {
                 if (e.getStateChange() == ItemEvent.SELECTED) {
                     System.out.println("Ziffern aktiviert");
-
+                    generator.setZiffern(true);
                 } else {
                     System.out.println("Ziffern deaktiviert");
-
+                    generator.setZiffern(false);
                 }
             }
         });
@@ -66,10 +65,10 @@ public class gui {
             public void itemStateChanged(ItemEvent e) {
                 if (e.getStateChange() == ItemEvent.SELECTED) {
                     System.out.println("Sonderzeichen aktiviert");
-
+                    generator.setSonderzeichen(true);
                 } else {
                     System.out.println("Sonderzeichen deaktiviert");
-
+                    generator.setSonderzeichen(false);
                 }
             }
         });

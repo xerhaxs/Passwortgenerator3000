@@ -4,45 +4,45 @@ import java.util.Random;
 
 public class generator{
     // Grossbuchstaben Wert
-    private boolean zGrossbuchstaben;
-    public void setzGrossbuchstaben(boolean pGrossbuchstaben) {
-        this.zGrossbuchstaben = pGrossbuchstaben;
+    private static boolean zGrossbuchstaben;
+    public static void setGrossbuchstaben(boolean pGrossbuchstaben) {
+        zGrossbuchstaben = pGrossbuchstaben;
     }
-    public boolean getzGrossbuchstaben() {
+    public static boolean getzGrossbuchstaben() {
         return zGrossbuchstaben;
     }
 
     // Kleinbuchstaben Wert
-    private boolean zKleinbuchstaben;
-    public void setKleinbuchstaben(boolean pKleinbuchstaben) {
-        this.zKleinbuchstaben = pKleinbuchstaben;
+    private static boolean zKleinbuchstaben;
+    public static void setKleinbuchstaben(boolean pKleinbuchstaben) {
+        zKleinbuchstaben = pKleinbuchstaben;
     }
     public boolean getzKleinbuchstaben() {
         return zKleinbuchstaben;
     }
 
     // Ziffern Wert
-    private boolean zZiffern;
-    public void setZiffern(boolean pZiffern) {
-        this.zZiffern = pZiffern;
+    private static boolean zZiffern;
+    public static void setZiffern(boolean pZiffern) {
+        zZiffern = pZiffern;
     }
     public boolean getzZiffern() {
         return zZiffern;
     }
 
     // Sonderzeichen Wert
-    private boolean zSonderzeichen;
-    public void setSonderzeichen(boolean pSonderzeichen) {
-        this.zSonderzeichen = pSonderzeichen;
+    private static boolean zSonderzeichen;
+    public static void setSonderzeichen(boolean pSonderzeichen) {
+        zSonderzeichen = pSonderzeichen;
     }
     public boolean getzSonderzeichen() {
         return zSonderzeichen;
     }
 
     // Passwortlaenge Wert
-    private int zPasswortlaenge;
-    public void setPasswortlaenge(int pPasswortlaenge) {
-        this.zPasswortlaenge = pPasswortlaenge;
+    private static int zPasswortlaenge;
+    public static void setPasswortlaenge(int pPasswortlaenge) {
+        zPasswortlaenge = pPasswortlaenge;
     }
     public int getzPasswortlaenge() {
         return zPasswortlaenge;

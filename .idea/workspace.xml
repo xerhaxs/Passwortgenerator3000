@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2668f67a-7bd2-4a8a-9d68-5515734e1bc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/classes/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/generator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/gui.form" beforeDir="false" afterPath="$PROJECT_DIR$/classes/gui.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/gui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/generator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
