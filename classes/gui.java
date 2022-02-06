@@ -26,10 +26,10 @@ public class gui {
             public void itemStateChanged(ItemEvent e) {
                 if (e.getStateChange() == ItemEvent.SELECTED) {
                     System.out.println("Grossbuchstaben aktiviert");
-                    generator.setGrossbuchstaben(true);
+                    guidata.setGrossbuchstaben(true);
                 } else {
                     System.out.println("Grossbuchstaben deaktiviert");
-                    generator.setGrossbuchstaben(false);
+                    guidata.setGrossbuchstaben(false);
                 }
             }
         });
@@ -39,10 +39,10 @@ public class gui {
             public void itemStateChanged(ItemEvent e) {
                 if (e.getStateChange() == ItemEvent.SELECTED) {
                     System.out.println("Kleinbuchstaben aktiviert");
-                    generator.setKleinbuchstaben(true);
+                    guidata.setKleinbuchstaben(true);
                 } else {
                     System.out.println("Kleinbuchstaben deaktiviert");
-                    generator.setKleinbuchstaben(false);
+                    guidata.setKleinbuchstaben(false);
                 }
             }
         });
@@ -52,10 +52,10 @@ public class gui {
             public void itemStateChanged(ItemEvent e) {
                 if (e.getStateChange() == ItemEvent.SELECTED) {
                     System.out.println("Ziffern aktiviert");
-                    generator.setZiffern(true);
+                    guidata.setZiffern(true);
                 } else {
                     System.out.println("Ziffern deaktiviert");
-                    generator.setZiffern(false);
+                    guidata.setZiffern(false);
                 }
             }
         });
@@ -65,10 +65,10 @@ public class gui {
             public void itemStateChanged(ItemEvent e) {
                 if (e.getStateChange() == ItemEvent.SELECTED) {
                     System.out.println("Sonderzeichen aktiviert");
-                    generator.setSonderzeichen(true);
+                    guidata.setSonderzeichen(true);
                 } else {
                     System.out.println("Sonderzeichen deaktiviert");
-                    generator.setSonderzeichen(false);
+                    guidata.setSonderzeichen(false);
                 }
             }
         });
