@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2668f67a-7bd2-4a8a-9d68-5515734e1bc9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/classes/guiactions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/gui.form" beforeDir="false" afterPath="$PROJECT_DIR$/classes/gui.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/generator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +52,35 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.gui">
+  <component name="RunManager" selected="Application.main">
+    <configuration name="generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.generator" />
+      <module name="Passwortgenerator3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classes.gui" />
+      <module name="Passwortgenerator3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.main" />
       <module name="Passwortgenerator3000" />
       <extension name="coverage">
         <pattern>
@@ -79,9 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.gui" />
-        <item itemvalue="Application.test" />
+        <item itemvalue="Application.generator" />
         <item itemvalue="Application.passwortmain" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
