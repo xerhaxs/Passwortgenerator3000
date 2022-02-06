@@ -1,7 +1,4 @@
 package classes;
-
-import com.sun.org.apache.xml.internal.utils.StringToIntTable;
-
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -90,5 +87,4 @@ public class gui {
             }
         });
     }
-
 }

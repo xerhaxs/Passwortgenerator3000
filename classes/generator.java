@@ -3,9 +3,6 @@ package classes;
 import java.util.Random;
 
 public class generator{
-
-
-
     public static String generierePasswort(int length) {
         String Grossbuchstaben = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String Kleinbuchstaben = "abcdefghijklmnopqrstuvwxyz";

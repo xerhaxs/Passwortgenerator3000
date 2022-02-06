@@ -1,7 +1,6 @@
 package classes;
 
 public class guidata {
-    
     // Grossbuchstaben Wert
     private static boolean zGrossbuchstaben;
     public static void setGrossbuchstaben(boolean pGrossbuchstaben) {
