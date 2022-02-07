@@ -10,7 +10,7 @@
       <minimumSize width="400" height="300"/>
       <name value="Passwortgenerator3000"/>
     </properties>
-    <border type="line" title="Passwortgenerator3000" title-justification="2" title-position="2">
+    <border type="line" title="" title-justification="2" title-position="2">
       <font/>
       <title-color color="-3750196"/>
       <color color="-3750196"/>
@@ -29,7 +29,9 @@
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <selected value="false"/>
               <text value="Grossbuchstaben"/>
+              <toolTipText value="Grossbuchstaben im Passwort aktivieren."/>
             </properties>
           </component>
           <component id="79441" class="javax.swing.JCheckBox" binding="kleinbuchstabenCheckBox" default-binding="true">
@@ -37,7 +39,9 @@
               <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <selected value="false"/>
               <text value="Kleinbuchstaben"/>
+              <toolTipText value="Kleinbuchstaben im Passwort aktivieren."/>
             </properties>
           </component>
           <component id="31304" class="javax.swing.JCheckBox" binding="ziffernCheckBox" default-binding="true">
@@ -45,7 +49,9 @@
               <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <selected value="false"/>
               <text value="Ziffern"/>
+              <toolTipText value="Ziffern im Passwort aktivieren."/>
             </properties>
           </component>
           <component id="38551" class="javax.swing.JCheckBox" binding="sonderzeichenCheckBox" default-binding="true">
@@ -53,7 +59,9 @@
               <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <selected value="false"/>
               <text value="Sonderzeichen"/>
+              <toolTipText value="Sonderzeichen im Passwort aktivieren."/>
             </properties>
           </component>
           <component id="1cb94" class="javax.swing.JButton" binding="passwortGenerierenButton" default-binding="true">
@@ -62,6 +70,7 @@
             </constraints>
             <properties>
               <text value="Passwort generieren"/>
+              <toolTipText value="Das Passwort generieren."/>
             </properties>
           </component>
           <component id="89cff" class="javax.swing.JButton" binding="passwortKopierenButton">
@@ -70,29 +79,38 @@
             </constraints>
             <properties>
               <text value="Passwort kopieren"/>
+              <toolTipText value="Das Passwort in die Zwischenablage kopieren."/>
             </properties>
           </component>
           <component id="7e3ac" class="javax.swing.JProgressBar" binding="zwischenspeichercountdownProgressBar">
             <constraints>
               <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
-            <properties/>
+            <properties>
+              <stringPainted value="true"/>
+              <toolTipText value="Verbleibende Dauer des Passworts nach dem Kopieren im Zwischenspeicher."/>
+            </properties>
           </component>
           <component id="da2a8" class="javax.swing.JSlider" binding="passwortJSlider">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <maximum value="128"/>
-              <minimum value="8"/>
+              <majorTickSpacing value="10"/>
+              <maximum value="100"/>
+              <minimum value="10"/>
+              <minorTickSpacing value="1"/>
               <name value="Passwortlänge"/>
               <paintLabels value="true"/>
               <paintTicks value="true"/>
               <snapToTicks value="true"/>
               <toolTipText value="Passwortlänge einstellen"/>
-              <value value="100"/>
+              <value value="10"/>
               <valueIsAdjusting value="true"/>
             </properties>
+            <clientProperties>
+              <Slider.paintThumbArrowShape class="java.lang.Boolean" value="true"/>
+            </clientProperties>
           </component>
           <component id="c3bf7" class="javax.swing.JFormattedTextField" binding="passwortlaengeJTextField">
             <constraints>
@@ -100,7 +118,10 @@
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <text value="10"/>
+              <toolTipText value="Passwortlaenge"/>
+            </properties>
           </component>
           <component id="8ca4b" class="javax.swing.JTextField" binding="passwortJTextField">
             <constraints>
@@ -108,7 +129,10 @@
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <text value=""/>
+              <toolTipText value="Passwortausgabe"/>
+            </properties>
           </component>
         </children>
       </grid>
