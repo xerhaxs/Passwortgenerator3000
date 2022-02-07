@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2668f67a-7bd2-4a8a-9d68-5515734e1bc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/classes/guierror_keine_variablen.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/guierror_keine_variablen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/guierror_passwortlaenge.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/guierror_passwortlaenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/copy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/gui.form" beforeDir="false" afterPath="$PROJECT_DIR$/classes/gui.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/gui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/guidata.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/guidata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/copy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/copy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/guidata.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/guidata.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

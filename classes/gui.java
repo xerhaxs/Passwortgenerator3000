@@ -2,10 +2,6 @@ package classes;
 import javax.swing.*;
 import javax.swing.event.*;
 import java.awt.event.*;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyVetoException;
-import java.beans.VetoableChangeListener;
 
 public class gui {
     public JPanel panelMain;
@@ -102,6 +98,8 @@ public class gui {
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Passwort kopiert");
                 copy.kopieren();
+                zwischenspeichercountdownProgressBar.setValue(10);
+
             }
         });
 
@@ -131,6 +129,6 @@ public class gui {
         //        }
         //    }
         //});
-        
+
     }
 }

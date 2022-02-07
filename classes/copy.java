@@ -12,6 +12,8 @@ public class copy {
         StringSelection stringSelectionObj = new StringSelection(passwort);
         Clipboard clipboardObj = Toolkit.getDefaultToolkit().getSystemClipboard();
         clipboardObj.setContents(stringSelectionObj, null);
+
+
     }
 
     public static void loeschen() {

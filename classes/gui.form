@@ -87,8 +87,11 @@
               <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <stringPainted value="true"/>
+              <maximum value="10"/>
+              <string value="100%"/>
+              <stringPainted value="false"/>
               <toolTipText value="Verbleibende Dauer des Passworts nach dem Kopieren im Zwischenspeicher."/>
+              <value value="0"/>
             </properties>
           </component>
           <component id="da2a8" class="javax.swing.JSlider" binding="passwortJSlider">
