@@ -45,4 +45,12 @@ public class guidata {
     public int getzPasswortlaenge() {
         return zPasswortlaenge;
     }
+
+    // Passwort
+    String passwort;
+    public static void setPasswort(string pPasswort) { zPasswort = pPasswort; }
+
+    public String getPasswort() {
+        return zPasswort;
+    }
 }

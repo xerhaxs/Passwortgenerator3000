@@ -83,7 +83,7 @@ public class gui {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Passwort kopiert");
-                System.out.println("Passwort: " + passwortJTextField.getText());
+
             }
         });
     }
