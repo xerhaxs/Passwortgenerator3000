@@ -91,7 +91,7 @@
               <string value="100%"/>
               <stringPainted value="false"/>
               <toolTipText value="Verbleibende Dauer des Passworts nach dem Kopieren im Zwischenspeicher."/>
-              <value value="0"/>
+              <value value="10"/>
             </properties>
           </component>
           <component id="da2a8" class="javax.swing.JSlider" binding="passwortJSlider">

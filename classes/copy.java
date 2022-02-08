@@ -1,9 +1,7 @@
 package classes;
 
 import java.awt.*;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.FlavorListener;
-import java.awt.datatransfer.StringSelection;
+import java.awt.datatransfer.*;
 
 public class copy {
     public static void kopieren() {
@@ -12,13 +10,11 @@ public class copy {
         StringSelection stringSelectionObj = new StringSelection(passwort);
         Clipboard clipboardObj = Toolkit.getDefaultToolkit().getSystemClipboard();
         clipboardObj.setContents(stringSelectionObj, null);
-
-
     }
 
-    //public static void loeschen() {
-    //    FlavorListener passwortclear = guidata.getPasswortasFlavor();
-    //    Clipboard clipboardObj = Toolkit.getDefaultToolkit().getSystemClipboard();
-    //    clipboardObj.removeFlavorListener(passwortclear);
-    //}
+    public static void loeschen() {
+        StringSelection stringSelectionObj = new StringSelection(null);
+        Clipboard clipboardObj = Toolkit.getDefaultToolkit().getSystemClipboard();
+        clipboardObj.setContents(stringSelectionObj, null);
+    }
 }

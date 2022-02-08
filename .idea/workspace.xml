@@ -3,18 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="2668f67a-7bd2-4a8a-9d68-5515734e1bc9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generator1alle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/copy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/gui.form" beforeDir="false" afterPath="$PROJECT_DIR$/classes/gui.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/gui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/guidata.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/guidata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/Generator1alle.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/copy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/copy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/generator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/generator_test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/guidata.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/guidata.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/passwortmain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/passwortmain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passwortmain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/passwortmain.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +48,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="24SuY9zwodVH5hyogOo5C8zY5Gk" />
   <component name="ProjectLevelVcsManager">
@@ -161,6 +171,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Passwortgenerator3000$main.ic" NAME="main Coverage Results" MODIFIED="1644333728096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>classes.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Passwortgenerator3000$MalprogrammV4.ic" NAME="MalprogrammV4 Coverage Results" MODIFIED="1643637323119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

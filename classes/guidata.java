@@ -46,6 +46,15 @@ public class guidata {
         return zPasswortlaenge;
     }
 
+    // Timercountdown
+    private static int zTimer;
+    public static void setTimer(int pTimer) {
+        zTimer = pTimer;
+    }
+    public static int getTimer() {
+        return zTimer;
+    }
+
     // Passwort
     private static String zPasswort = "";
     public static void setPasswort(String pPasswort) {

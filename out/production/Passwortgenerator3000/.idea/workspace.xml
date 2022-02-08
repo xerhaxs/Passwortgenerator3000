@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2668f67a-7bd2-4a8a-9d68-5515734e1bc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/generator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generator1alle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passwortmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/passwortmain.java" afterDir="false" />
-    </list>
+    <list default="true" id="2668f67a-7bd2-4a8a-9d68-5515734e1bc9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,9 +51,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.passwortmain">
-    <configuration name="generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.generator" />
+  <component name="RunManager" selected="Application.main">
+    <configuration name="generator_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.generator_test" />
       <module name="Passwortgenerator3000" />
       <extension name="coverage">
         <pattern>
@@ -119,10 +113,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.passwortmain" />
         <item itemvalue="Application.main" />
+        <item itemvalue="Application.passwortmain" />
         <item itemvalue="Application.gui" />
-        <item itemvalue="Application.generator" />
+        <item itemvalue="Application.generator_test" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>

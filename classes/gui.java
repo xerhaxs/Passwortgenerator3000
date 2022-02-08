@@ -1,23 +1,26 @@
 package classes;
+import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
+
 import javax.swing.*;
 import javax.swing.event.*;
 import java.awt.event.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class gui {
     public JPanel panelMain;
     private JSlider passwortJSlider;
     private JTextField passwortJTextField;
     private JButton passwortKopierenButton;
-    private JProgressBar zwischenspeichercountdownProgressBar;
+    private  JProgressBar zwischenspeichercountdownProgressBar;
     private JCheckBox grossbuchstabenCheckBox;
     private JCheckBox sonderzeichenCheckBox;
     private JCheckBox ziffernCheckBox;
     private JCheckBox kleinbuchstabenCheckBox;
     private JButton passwortGenerierenButton;
     private JFormattedTextField passwortlaengeJTextField;
-
 
     public gui() {
         grossbuchstabenCheckBox.addItemListener(new ItemListener() {
@@ -98,8 +101,22 @@ public class gui {
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Passwort kopiert");
                 copy.kopieren();
+                guidata.setTimer(10);
                 zwischenspeichercountdownProgressBar.setValue(10);
-
+                java.util.Timer timer = new Timer();
+                timer.schedule(new TimerTask() {
+                    @Override
+                    public void run() {
+                        if (guidata.getTimer() > 0) {
+                            guidata.setTimer(guidata.getTimer() - 1);
+                            zwischenspeichercountdownProgressBar.setValue(zwischenspeichercountdownProgressBar.getValue() - 1);
+                            System.out.println("Zwischenablage wird geleert in: " + guidata.getTimer());
+                        } else {
+                            copy.loeschen();
+                            timer.cancel();
+                        }
+                    }
+                }, 0, 1000);
             }
         });
 
