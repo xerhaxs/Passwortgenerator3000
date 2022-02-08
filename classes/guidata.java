@@ -1,7 +1,5 @@
 package classes;
 
-import java.awt.datatransfer.FlavorListener;
-
 public class guidata {
     // Grossbuchstaben Wert
     private static boolean zGrossbuchstaben;
@@ -49,7 +47,7 @@ public class guidata {
     }
 
     // Passwort
-    private static String zPasswort;
+    private static String zPasswort = "";
     public static void setPasswort(String pPasswort) {
         zPasswort = pPasswort;
     }

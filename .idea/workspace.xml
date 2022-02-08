@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2668f67a-7bd2-4a8a-9d68-5515734e1bc9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/classes/copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/copy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator1alle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/generator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/guidata.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/guidata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/Generator1alle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/copy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/copy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/generator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/guidata.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/guidata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/passwortmain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/passwortmain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passwortmain.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +66,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.main">
-    <configuration name="generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.generator" />
+    <configuration name="generator_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.generator_test" />
       <module name="Passwortgenerator3000" />
       <extension name="coverage">
         <pattern>
@@ -117,9 +128,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.gui" />
-        <item itemvalue="Application.generator" />
         <item itemvalue="Application.passwortmain" />
+        <item itemvalue="Application.gui" />
+        <item itemvalue="Application.generator_test" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
