@@ -16,9 +16,9 @@ public class copy {
 
     }
 
-    public static void loeschen() {
-        FlavorListener passwortclear = guidata.getPasswortasFlavor();
-        Clipboard clipboardObj = Toolkit.getDefaultToolkit().getSystemClipboard();
-        clipboardObj.removeFlavorListener(passwortclear);
-    }
+    //public static void loeschen() {
+    //    FlavorListener passwortclear = guidata.getPasswortasFlavor();
+    //    Clipboard clipboardObj = Toolkit.getDefaultToolkit().getSystemClipboard();
+    //    clipboardObj.removeFlavorListener(passwortclear);
+    //}
 }
