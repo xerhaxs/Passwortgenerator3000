@@ -9,7 +9,7 @@ public class Generator1alle {
     boolean istKleinbuchstabe = false;
     boolean istGroßbuchstabe = false;
     boolean istZiffer = false;
-    boolean istSonderzeichen = true;
+    boolean istSonderzeichen = false;
 
     public Generator1alle() {
         Generator1zahlen = new Random();
