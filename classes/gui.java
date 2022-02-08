@@ -2,6 +2,8 @@ package classes;
 import javax.swing.*;
 import javax.swing.event.*;
 import java.awt.event.*;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
 
 public class gui {
     public JPanel panelMain;
@@ -14,7 +16,6 @@ public class gui {
     private JCheckBox ziffernCheckBox;
     private JCheckBox kleinbuchstabenCheckBox;
     private JButton passwortGenerierenButton;
-    private JFormattedTextField passwortausgabe;
     private JFormattedTextField passwortlaengeJTextField;
 
 
@@ -85,7 +86,6 @@ public class gui {
                     dialog.pack();
                     dialog.setVisible(true);
                 } else {
-
                     passwortJTextField.setText(generator.generierePasswort(Integer.parseInt(passwortlaengeJTextField.getText())));
                     guidata.setPasswort(passwortJTextField.getText());
                     System.out.println("Passwort generiert");
@@ -106,29 +106,21 @@ public class gui {
         passwortJSlider.addChangeListener(new ChangeListener() {
             @Override
             public void stateChanged(ChangeEvent e) {
-                if (passwortJSlider.getValue() != (Integer.parseInt(passwortlaengeJTextField.getText()))) {
+                if (!(passwortlaengeJTextField.getText().matches("[0-9]+")) || passwortJSlider.getValue() != (Integer.parseInt(passwortlaengeJTextField.getText()))) {
                     passwortlaengeJTextField.setText(String.valueOf(passwortJSlider.getValue()));
+                    System.out.println("Passwortlaenge geaendert zu " + passwortlaengeJTextField.getText());
                 }
             }
         });
 
-       // passwortlaengeJTextField.addCaretListener(new CaretListener() {
-       //     @Override
-       //     public void caretUpdate(CaretEvent e) {
-       //         if (passwortlaengeJTextField.getText().matches("[0-9]+") && (Integer.parseInt(passwortlaengeJTextField.getText())) != passwortJSlider.getValue()) {
-       //             passwortJSlider.setValue(Integer.parseInt(passwortlaengeJTextField.getText()));
-       //         }
-       //     }
-       // });
-
-        //passwortlaengeJTextField.addPropertyChangeListener(new PropertyChangeListener() {
-        //    @Override
-        //    public void propertyChange(PropertyChangeEvent evt) {
-        //        if (passwortlaengeJTextField.getText().matches("[0-9]+") && (Integer.parseInt(passwortlaengeJTextField.getText())) != passwortJSlider.getValue()) {
-        //            passwortJSlider.setValue(Integer.parseInt(passwortlaengeJTextField.getText()));
-        //        }
-        //    }
-        //});
-
+        passwortlaengeJTextField.addPropertyChangeListener(new PropertyChangeListener() {
+            @Override
+            public void propertyChange(PropertyChangeEvent evt) {
+                if (passwortlaengeJTextField.getText().matches("[0-9]+") && (Integer.parseInt(passwortlaengeJTextField.getText())) != passwortJSlider.getValue()) {
+                    passwortJSlider.setValue(Integer.parseInt(passwortlaengeJTextField.getText()));
+                    System.out.println("Passwortlaenge geaendert zu " + passwortlaengeJTextField.getText());
+                }
+            }
+        });
     }
 }

@@ -56,5 +56,8 @@ public class guidata {
     public static String getPasswort() {
         return zPasswort;
     }
+    public static FlavorListener getPasswortasFlavor() {
+        return passwortasFlavor;
+    }
 }
 
