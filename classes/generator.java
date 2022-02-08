@@ -6,7 +6,7 @@ public class generator{
     public static String generierePasswort(int length) {
         String Grossbuchstaben = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String Kleinbuchstaben = "abcdefghijklmnopqrstuvwxyz";
-        String Sonderzeichen = "!@#$";
+        String Sonderzeichen = "!@#$?,;.:";
         String Ziffern = "1234567890";
         String Kombiniert = Grossbuchstaben + Kleinbuchstaben + Sonderzeichen + Ziffern;
         Random random = new Random();
