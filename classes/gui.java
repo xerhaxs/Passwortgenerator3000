@@ -1,6 +1,9 @@
 package classes;
 import javax.swing.*;
+import javax.swing.event.*;
 import java.awt.event.*;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
 
 public class gui {
     public JPanel panelMain;
@@ -13,7 +16,6 @@ public class gui {
     private JCheckBox ziffernCheckBox;
     private JCheckBox kleinbuchstabenCheckBox;
     private JButton passwortGenerierenButton;
-    private JFormattedTextField passwortausgabe;
     private JFormattedTextField passwortlaengeJTextField;
 
 
@@ -73,9 +75,21 @@ public class gui {
         passwortGenerierenButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                passwortJTextField.setText(generator.generierePasswort(Integer.parseInt(passwortlaengeJTextField.getText())));
-                System.out.println("Passwort generiert");
-
+                if (guidata.getGrossbuchstaben() == false && guidata.getKleinbuchstaben() == false && guidata.getZiffern() == false && guidata.getSonderzeichen() == false) {
+                    System.out.println("Passwortgeneration fehlgeschlagen. Generatorvariablen nicht deffiniert.");
+                    guierror_keine_variablen dialog = new guierror_keine_variablen();
+                    dialog.pack();
+                    dialog.setVisible(true);
+                } else if (!passwortlaengeJTextField.getText().matches("[0-9]+") || !((Integer.parseInt(passwortlaengeJTextField.getText())) > 7)) {
+                    System.out.println("Passwortgeneration fehlgeschlagen. Passwortlaenge nicht deffiniert oder zu kurz.");
+                    guierror_passwortlaenge dialog = new guierror_passwortlaenge();
+                    dialog.pack();
+                    dialog.setVisible(true);
+                } else {
+                    passwortJTextField.setText(generator.generierePasswort(Integer.parseInt(passwortlaengeJTextField.getText())));
+                    guidata.setPasswort(passwortJTextField.getText());
+                    System.out.println("Passwort generiert");
+                }
             }
         });
 
@@ -83,7 +97,29 @@ public class gui {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Passwort kopiert");
-                System.out.println("Passwort: " + passwortJTextField.getText());
+                copy.kopieren();
+                zwischenspeichercountdownProgressBar.setValue(10);
+
+            }
+        });
+
+        passwortJSlider.addChangeListener(new ChangeListener() {
+            @Override
+            public void stateChanged(ChangeEvent e) {
+                if (!(passwortlaengeJTextField.getText().matches("[0-9]+")) || passwortJSlider.getValue() != (Integer.parseInt(passwortlaengeJTextField.getText()))) {
+                    passwortlaengeJTextField.setText(String.valueOf(passwortJSlider.getValue()));
+                    System.out.println("Passwortlaenge geaendert zu " + passwortlaengeJTextField.getText());
+                }
+            }
+        });
+
+        passwortlaengeJTextField.addPropertyChangeListener(new PropertyChangeListener() {
+            @Override
+            public void propertyChange(PropertyChangeEvent evt) {
+                if (passwortlaengeJTextField.getText().matches("[0-9]+") && (Integer.parseInt(passwortlaengeJTextField.getText())) != passwortJSlider.getValue()) {
+                    passwortJSlider.setValue(Integer.parseInt(passwortlaengeJTextField.getText()));
+                    System.out.println("Passwortlaenge geaendert zu " + passwortlaengeJTextField.getText());
+                }
             }
         });
     }

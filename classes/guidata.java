@@ -1,12 +1,14 @@
 package classes;
 
+import java.awt.datatransfer.FlavorListener;
+
 public class guidata {
     // Grossbuchstaben Wert
     private static boolean zGrossbuchstaben;
     public static void setGrossbuchstaben(boolean pGrossbuchstaben) {
         zGrossbuchstaben = pGrossbuchstaben;
     }
-    public static boolean getzGrossbuchstaben() {
+    public static boolean getGrossbuchstaben() {
         return zGrossbuchstaben;
     }
 
@@ -15,7 +17,7 @@ public class guidata {
     public static void setKleinbuchstaben(boolean pKleinbuchstaben) {
         zKleinbuchstaben = pKleinbuchstaben;
     }
-    public boolean getzKleinbuchstaben() {
+    public static boolean getKleinbuchstaben() {
         return zKleinbuchstaben;
     }
 
@@ -24,7 +26,7 @@ public class guidata {
     public static void setZiffern(boolean pZiffern) {
         zZiffern = pZiffern;
     }
-    public boolean getzZiffern() {
+    public static boolean getZiffern() {
         return zZiffern;
     }
 
@@ -33,7 +35,7 @@ public class guidata {
     public static void setSonderzeichen(boolean pSonderzeichen) {
         zSonderzeichen = pSonderzeichen;
     }
-    public boolean getzSonderzeichen() {
+    public static boolean getSonderzeichen() {
         return zSonderzeichen;
     }
 
@@ -42,7 +44,20 @@ public class guidata {
     public static void setPasswortlaenge(int pPasswortlaenge) {
         zPasswortlaenge = pPasswortlaenge;
     }
-    public int getzPasswortlaenge() {
+    public static int getPasswortlaenge() {
         return zPasswortlaenge;
     }
+
+    // Passwort
+    private static String zPasswort;
+    public static void setPasswort(String pPasswort) {
+        zPasswort = pPasswort;
+    }
+    public static String getPasswort() {
+        return zPasswort;
+    }
+    public static FlavorListener getPasswortasFlavor() {
+        return passwortasFlavor;
+    }
 }
+
