@@ -1,4 +1,4 @@
-package passwortgenerator3000;
+package passwortgenerator3000.classes;
 
 public class guidata {
     // Geter-Seter-Helperclass

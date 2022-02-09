@@ -1,4 +1,4 @@
-package passwortgenerator3000;
+package passwortgenerator3000.classes;
 
 import java.awt.*;
 import java.awt.datatransfer.*;

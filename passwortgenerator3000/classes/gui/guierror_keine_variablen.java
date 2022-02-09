@@ -1,15 +1,15 @@
-package passwortgenerator3000.gui;
+package passwortgenerator3000.classes.gui;
 
 import javax.swing.*;
 import java.awt.event.*;
 
-public class guierror_passwortlaenge extends JDialog {
+public class guierror_keine_variablen extends JDialog {
     // Initalisieren & Deklarieren
     public JPanel contentPane;
     private JButton buttonOK;
-    private JTextPane Passwortlaenge_Error;
+    private JTextPane Zeichenart_Error;
 
-    public guierror_passwortlaenge() {
+    public guierror_keine_variablen() {
         // Fenster mit Button erzeugen
         setContentPane(contentPane);
         setModal(true);

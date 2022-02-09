@@ -1,6 +1,6 @@
 package passwortgenerator3000;
 
-import passwortgenerator3000.gui.guimain;
+import passwortgenerator3000.classes.gui.guimain;
 
 import javax.swing.*;
 
