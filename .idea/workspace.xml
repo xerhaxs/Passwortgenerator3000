@@ -3,25 +3,162 @@
   <component name="ChangeListManager">
     <list default="true" id="2668f67a-7bd2-4a8a-9d68-5515734e1bc9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/copy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/gui.form" beforeDir="false" afterPath="$PROJECT_DIR$/classes/gui.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/gui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/guidata.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/guidata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/copy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/copy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/generator_test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/gui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/guidata.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/guidata.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Passwortgenerator3000/classes/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Passwortgenerator3000/passwortmain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in extensions/SuMAkzeptor.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in extensions/SuMGenerator.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in extensions/SuMTransduktor.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/QTJava.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMEreignis.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMKern.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMKomponenten.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMMultimedia.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMNetz.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMSQL.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMStrukturen.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/SuMWerkzeuge.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/libQTJNative.jnilib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/mysql-connector-java-5.1.15-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/xpp3_min-1.1.3.4.I.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/Bibs/in userlib/xstream-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/bluej.defs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/logfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/resources/inherit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Bildschirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Buntstift.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/EBAnwendung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Ereignisanwendung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Ereignisbearbeiter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Farbe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Fenster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Muster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Schrift.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Stift.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/Zeichen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/ereignis/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Bildschirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Buntstift.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Eingabe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Farbe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Fenster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Maus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Muster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Schrift.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Stift.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Tastatur.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Warnung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/Zeichen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/kern/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Ausrichtung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Auswahl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Etikett.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Fortschrittsbalken.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Kennwortfeld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Knopf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Komponente.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Markierungskomponente.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Menue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Radiogruppe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Radioknopf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Regler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Schalter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Tabelle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Textbereich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Textfeld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Textkomponente.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Zeichenbereich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/Zeilenbereich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/komponenten/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/multimedia/Bild.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/multimedia/Film.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/multimedia/Ton.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/multimedia/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/multimedia/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/multimedia/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/Clientempfaenger.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/Clientverbindung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/Server.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/Serververbindung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/Verbindung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/netz/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/sql/Datenbank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/sql/SQLErgebnisliste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/sql/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/sql/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/sql/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Baum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Binaerbaum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Feld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Hashtabelle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Liste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Ordnungsklasse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Ordnungsobjekt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Schlange.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Schluesselobjekt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Stapel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Suchbaum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/SuchbaumInhalt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Suchbinaerbaum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/Tabelle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/strukturen/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/Animation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/Rechner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/Textwerkzeug.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/Uhr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/doc/sum/werkzeuge/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/dialogues" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/exception.help" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/javac.help" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/labels" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/moe.help" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/html.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/method.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/SuMAnwendung.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/SuMKern.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/SuMProgramm.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/abstract.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/appletj.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/appletsum.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/enum.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/interface.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/midlet.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/stdclass.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/newclass/unittest.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuMMac 7.3.1/german/templates/readme.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/passwortgenerator3000/copy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/passwortgenerator3000/generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/gui.form" beforeDir="false" afterPath="$PROJECT_DIR$/passwortgenerator3000/gui/gui.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/passwortgenerator3000/gui/gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/guidata.java" beforeDir="false" afterPath="$PROJECT_DIR$/passwortgenerator3000/guidata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/guierror_keine_variablen.form" beforeDir="false" afterPath="$PROJECT_DIR$/passwortgenerator3000/gui/guierror_keine_variablen.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/guierror_keine_variablen.java" beforeDir="false" afterPath="$PROJECT_DIR$/passwortgenerator3000/gui/guierror_keine_variablen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/guierror_passwortlaenge.form" beforeDir="false" afterPath="$PROJECT_DIR$/passwortgenerator3000/gui/guierror_passwortlaenge.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/guierror_passwortlaenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/passwortgenerator3000/gui/guierror_passwortlaenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/passwortgenerator3000/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +218,7 @@
       <module name="Passwortgenerator3000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes.*" />
+          <option name="PATTERN" value="passwortgenerator3000.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,11 +227,11 @@
       </method>
     </configuration>
     <configuration name="gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.gui" />
+      <option name="MAIN_CLASS_NAME" value="passwortgenerator3000.gui" />
       <module name="Passwortgenerator3000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes.*" />
+          <option name="PATTERN" value="passwortgenerator3000.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +240,11 @@
       </method>
     </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.main" />
+      <option name="MAIN_CLASS_NAME" value="passwortgenerator3000.main" />
       <module name="Passwortgenerator3000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes.*" />
+          <option name="PATTERN" value="passwortgenerator3000.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,7 +264,7 @@
       <module name="Passwortgenerator3000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes.*" />
+          <option name="PATTERN" value="passwortgenerator3000.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
