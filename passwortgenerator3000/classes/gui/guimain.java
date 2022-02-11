@@ -17,7 +17,7 @@ public class guimain {
     private JSlider passwortJSlider;
     private JTextField passwortJTextField;
     private JButton passwortKopierenButton;
-    private  JProgressBar zwischenspeichercountdownProgressBar;
+    private JProgressBar zwischenspeichercountdownProgressBar;
     private JCheckBox grossbuchstabenCheckBox;
     private JCheckBox sonderzeichenCheckBox;
     private JCheckBox ziffernCheckBox;

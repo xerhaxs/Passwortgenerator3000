@@ -5,7 +5,7 @@ import passwortgenerator3000.classes.gui.guimain;
 import javax.swing.*;
 
 // Programm Ausführen
-public class main {
+public class main_start {
     public static void main(String[] args) {
         // Programmfenster initalisieren, deklarieren & anzeigen
         JFrame frame = new JFrame("Passwortgenerator3000");
