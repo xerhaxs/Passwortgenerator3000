@@ -4,7 +4,7 @@ import java.awt.datatransfer.*;
 public class Copy {
     // Kopierfunktion Zwischenablage
     public static void kopieren() {
-        System.out.println("Passwort: " + Guidata.getPasswort());
+        //System.out.println("Passwort: " + Guidata.getPasswort());
         String passwort = Guidata.getPasswort();
         StringSelection stringSelectionObj = new StringSelection(passwort);
         Clipboard clipboardObj = Toolkit.getDefaultToolkit().getSystemClipboard();
